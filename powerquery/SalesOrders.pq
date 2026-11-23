@@ -1,5 +1,5 @@
 let
-    Source = Csv.Document(File.Contents("C:\\DATA\\sales_orders.csv"),
+    Source = Csv.Document(File.Contents("C:\DATA\sales_orders.csv"),
         [Delimiter=",", Columns=10, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
     Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
     Typed = Table.TransformColumnTypes(Headers, {
