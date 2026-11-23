@@ -1,0 +1,11 @@
+order_id,order_date,customer_id,customer_name,region,product_id,product_name,category,quantity,unit_price
+O-001,2026-01-04,C-01,Ada,Midwest,P-01,Proximity Sensor,Automation,2,125.00
+O-002,2026-01-04,C-02,Maya,East,P-02,Industrial HMI,Automation,1,595.00
+O-003,2026-01-07,C-01,Ada,Midwest,P-03,Cable Assembly,Components,3,25.50
+O-004,2026-01-12,C-03,Sam,West,P-02,Industrial HMI,Automation,2,595.00
+O-005,2026-01-15,C-02,Maya,East,P-01,Proximity Sensor,Automation,4,125.00
+O-006,2026-01-16,C-04,Noor,South,P-03,Cable Assembly,Components,10,25.50
+O-007,2026-02-03,C-03,Sam,West,P-01,Proximity Sensor,Automation,1,125.00
+O-008,2026-02-09,C-04,Noor,South,P-02,Industrial HMI,Automation,1,595.00
+O-009,2026-02-13,C-01,Ada,Midwest,P-03,Cable Assembly,Components,6,25.50
+O-010,2026-02-20,C-02,Maya,East,P-02,Industrial HMI,Automation,1,595.00

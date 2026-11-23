@@ -1,0 +1,7 @@
+-- Create these as separate measures in the SalesOrders table.
+Total Revenue = SUMX(SalesOrders, SalesOrders[quantity] * SalesOrders[unit_price])
+Order Count = DISTINCTCOUNT(SalesOrders[order_id])
+Total Units = SUM(SalesOrders[quantity])
+Average Order Value = DIVIDE([Total Revenue], [Order Count])
+Revenue per Unit = DIVIDE([Total Revenue], [Total Units])
+-- Add a proper Date table before using time-intelligence measures.
